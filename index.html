@@ -6,17 +6,23 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<!--   <script src="moment.js"></script>
+  <script>
+    const [month, date] = new Date().toLocaleDateString("en-US").split("/");
+    document.getElementById('date').innerText = `Today is ${month} ${date}`
+    document.getElementById('duration').innerText = `Alyss is currently `
+  </script> -->
 <body>
   <h1>
     Status
   </h1>
-  <h2>
-    Today is November 1st (Happy Birthday Mom)
+  <h2 id="date">
+    Today is November 2nd
   </h2>
-  <h2>
-    Alyssa is currently 41 weeks and 0 days
+  <h2 id="duration">
+    Alyssa is currently 41 weeks and 1 day
   </h2>
-  <h3>
+  <h3 id="status">
     We are still waiting for Baby Boy Gordon to arrive.
   </h3>
 </body>
